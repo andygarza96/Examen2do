@@ -22,7 +22,7 @@
         </FrameLayout>
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/camera_view"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:srcCompat="@tools:sample/avatars" />
@@ -34,7 +34,7 @@
         </FrameLayout>
 
         <TextView
-            android:id="@+id/txtQMarca"
+            android:id="@+id/txtQBrand"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/marca"
@@ -58,7 +58,7 @@
             android:textSize="18sp" />
 
         <TextView
-            android:id="@+id/txtQMoney"
+            android:id="@+id/txtQDebt"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/deuda"
