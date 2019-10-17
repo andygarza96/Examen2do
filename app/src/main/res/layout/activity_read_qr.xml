@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".readQR">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="63dp">
+
+        </FrameLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="29dp">
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/txtQMarca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/marca"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtQModel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/model"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtQYear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/year"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtQMoney"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/deuda"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="316dp">
+
+        </FrameLayout>
+
+        <Button
+            android:id="@+id/btnQScan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scan Code" />
+
+        <Button
+            android:id="@+id/btnQClose"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="close" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Examen2do</string>
+    <string name="marca">Brand</string>
+    <string name="model">Model</string>
+    <string name="year">Year</string>
+    <string name="deuda">Debt</string>
+    <string name="scan_qr">Scan QR</string>
+</resources>
